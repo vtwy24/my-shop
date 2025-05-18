@@ -3,6 +3,7 @@ import Image from 'next/image';
 // import { Geist, Geist_Mono } from 'next/font/google';
 import { Button, EditIcon } from '@/components/mui';
 import Layout from '@/components/Layout';
+import Heading from '@/components/Heading';
 
 // const geistSans = Geist({
 //   variable: '--font-geist-sans',
@@ -25,7 +26,7 @@ export default function Contact() {
       </Head>
       <div>
         <Layout>
-          <h1>Contact Us</h1>
+          <Heading component='h2'>Contact Us</Heading>
           <Button variant="contained">
             <EditIcon />
             Button

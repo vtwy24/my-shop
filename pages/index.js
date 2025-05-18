@@ -26,7 +26,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Layout>
-          <Heading h1>Home Page</Heading>
+          <Heading component='h2'>Home Page</Heading>
           <Paragraph>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, ab pariatur rerum rem deleniti eveniet fuga consequatur delectus corrupti porro consectetur blanditiis at culpa suscipit aperiam accusamus doloremque. Ducimus, reiciendis.</Paragraph>
           <Button variant="contained">
             <EditIcon />
