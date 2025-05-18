@@ -3,6 +3,8 @@ import Head from 'next/head';
 import { Geist, Geist_Mono } from 'next/font/google';
 import { Button, EditIcon } from '@/components/mui';
 import Layout from '@/components/Layout';
+import Heading from '@/components/Heading';
+import Paragraph from '@/components/Paragraph';
 
 // const geistSans = Geist({
 //   variable: '--font-geist-sans',
@@ -24,7 +26,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Layout>
-          <h1>Home Page</h1>
+          <Heading h1>Home Page</Heading>
+          <Paragraph>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, ab pariatur rerum rem deleniti eveniet fuga consequatur delectus corrupti porro consectetur blanditiis at culpa suscipit aperiam accusamus doloremque. Ducimus, reiciendis.</Paragraph>
           <Button variant="contained">
             <EditIcon />
             Button
